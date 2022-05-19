@@ -31,6 +31,8 @@ const QuioscoProvider = ({children}) => {
     useEffect(()=>{
         obtenerCategorias()
         cargarOrdenes()
+        console.log(typeof Date.now())
+        console.log( Date.now())
     },[])
 
     useEffect(()=>{
